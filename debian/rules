@@ -6,6 +6,7 @@ export GOTELEMETRY = off
 	dh $@
 
 override_dh_auto_build:
+	touch .env
 	make client
 
 override_dh_auto_install:
