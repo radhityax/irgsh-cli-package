@@ -6,7 +6,7 @@ export GOTELEMETRY = off
 	dh $@
 
 override_dh_auto_build:
-	touch .env
+	echo "GPG_KEY=5EE04ADDB7409DC2A8658D558C462B7F1B5893C7" > .env
 	make client
 
 override_dh_auto_install:
