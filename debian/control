@@ -3,8 +3,8 @@ Section: unknown
 Priority: optional
 Maintainer: radhitya <alif@radhitya.org>
 Build-Depends:
- debhelper-compat, golang
-Standards-Version: 4.7.0
+ debhelper-compat (= 13), golang
+Standards-Version: 4.5.0
 Homepage: <insert the upstream URL, if relevant>
 Rules-Requires-Root: no
 #Vcs-Git: https://salsa.debian.org/debian/irgsh-cli.git
