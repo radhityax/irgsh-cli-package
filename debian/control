@@ -3,7 +3,7 @@ Section: unknown
 Priority: optional
 Maintainer: radhitya <alif@radhitya.org>
 Build-Depends:
- debhelper-compat (= 13),
+ debhelper-compat, golang
 Standards-Version: 4.7.0
 Homepage: <insert the upstream URL, if relevant>
 Rules-Requires-Root: no
